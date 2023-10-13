@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.android.kotlin_test1.test2.Test2ViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/test2_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test2_tv"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/test2_insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="插入"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/test2_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/test2_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</layout>

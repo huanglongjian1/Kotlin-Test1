@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/test5_activity_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test5_activity_tv"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/test5_activity_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test5_activity_tv2"
+                android:textSize="30sp" />
+
+            <FrameLayout
+                android:id="@+id/test5_activity_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/test5_activity_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
